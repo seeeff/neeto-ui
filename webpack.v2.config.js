@@ -77,7 +77,7 @@ module.exports = {
     ],
   },
   output: {
-    path: __dirname,
+    path: __dirname + "/build",
     filename: "[name].js",
     library: "neetoui",
     libraryTarget: "umd",
