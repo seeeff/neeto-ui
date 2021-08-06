@@ -12,6 +12,7 @@ import {
   Accordion,
   Button,
   Toastr,
+  Switch,
 } from "../../../lib";
 import Header from "../Header";
 
@@ -28,6 +29,7 @@ const COLOR_PALETTER_LIST = [
 const Components = () => {
   const [icon, setIcon] = useState(null);
   const [pageNo, setPageNo] = useState(1);
+  const [checked, setChecked] = useState(false);
   const PAGE_SIZE = 5;
 
   return (
@@ -184,6 +186,16 @@ const Components = () => {
             <Button
               label="Show toastr info"
               onClick={() => Toastr.info("Toaster info")}
+            />
+          </div>
+        </div>
+        <div className="w-1/2 mb-12">
+          <div className="flex flex-row items-center justify-start space-x-6">
+            <Switch
+              label="Switch"
+              checked={checked}
+              onChange={() => setChecked(!checked)}
+              id="abdsafs"
             />
           </div>
         </div>
