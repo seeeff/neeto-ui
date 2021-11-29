@@ -58,6 +58,7 @@ module.exports = {
     ],
   },
   output: {
+    publicPath: "",
     path: __dirname + "/v2",
     filename: "[name].js",
     library: "neetoui",
