@@ -6,7 +6,7 @@ import {
   Image,
   Help,
   NeetoDesk,
-  Link
+  Link,
 } from "@bigbinary/neeto-icons";
 
 import Avatar from "./Pages/Avatar";
@@ -28,6 +28,7 @@ import Toastr from "./Pages/Toastr";
 import Toggles from "./Pages/Toggles";
 import Tooltip from "./Pages/Tooltip";
 import Typography from "./Pages/Typography";
+import TeamMembers from "./Pages/TeamMembers";
 
 export const COMPONENT_MAPPING = {
   Avatar: Avatar,
@@ -49,6 +50,7 @@ export const COMPONENT_MAPPING = {
   Toggles: Toggles,
   Tooltip: Tooltip,
   Typography: Typography,
+  TeamMembers: TeamMembers,
 };
 
 export const NAV_LINKS = [
@@ -84,6 +86,10 @@ export const NAV_LINKS = [
       {
         label: "Avatar",
         to: "/components/avatar",
+      },
+      {
+        label: "TeamMembers",
+        to: "/components/team-members",
       },
       {
         label: "Tooltip",
@@ -173,5 +179,5 @@ export const FOOTER_LINKS = [
     label: "External",
     icon: Link,
     href: "https://neetoui-v2.netlify.app",
-  }
+  },
 ];
