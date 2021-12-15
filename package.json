@@ -83,7 +83,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-router-nav-prompt": "^0.4.1",
-    "react-toastify": "^8.0.2"
+    "react-toastify": "^8.0.2",
+    "axios": "^0.24.0"
   },
   "dependencies": {
     "@bigbinary/neeto-icons": "^1.8.3",
